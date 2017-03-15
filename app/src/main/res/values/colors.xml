@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#06A5D0</color>
+    <color name="colorPrimaryDark">#06A5D0</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="grey">#5A5557</color>
+    <color name="background_card_view">#FAFAFA</color>
+    <color name="tab_backgroud">#DDDDDD</color>
+    <color name="colorbottombar">#7006A5D0</color>
+</resources>

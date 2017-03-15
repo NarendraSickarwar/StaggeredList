@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E8E5E5"
+    tools:mCtx=".ui.fragments.FragmentMenuList">
+
+    <TextView
+        android:id="@+id/textview_menu_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/value_10_dp"
+
+        android:text="@string/menu_description"
+        android:textColor="@color/black" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview_menu_text"
+        android:layout_margin="@dimen/value_10_dp"
+        android:layout_marginTop="@dimen/value_10_dp"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_60_dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorbottombar"
+        android:orientation="horizontal"
+        android:padding="@dimen/value_10_dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/value_10_dp"
+            android:layout_marginTop="@dimen/value_10_dp"
+            android:layout_weight="0.50"
+            android:text="$17.00"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/value_10_dp"
+            android:layout_marginTop="@dimen/value_10_dp"
+            android:layout_weight="0.50"
+            android:gravity="right"
+            android:text="VIEWORDER (14)> "
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

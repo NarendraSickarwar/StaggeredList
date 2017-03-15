@@ -1,0 +1,75 @@
+{
+  "topmenu": [
+    {
+      "id": 1,
+      "name": "Breakfast",
+      "issubmenu": 1
+    },
+    {
+      "id": 2,
+      "name": "Dinner",
+      "issubmenu": 0
+    },
+    {
+      "id": 3,
+      "name": "Lunch",
+      "issubmenu": 0
+    }
+  ],
+  "submenu": [
+    {
+      "id": 1,
+      "name": "SANDWITCH & BURGERS",
+      "issubmenu": 1,
+      "mainmenuId": 1
+    },
+    {
+      "id": 2,
+      "name": "SALADS",
+      "issubmenu": 0,
+      "mainMenuId": 1
+    },
+    {
+      "id": 3,
+      "name": "SOUPS",
+      "issubmenu": 0,
+      "mainMenuId": 1
+    },
+    {
+      "id": 4,
+      "name": "SANDWITCH & BURGERS",
+      "issubmenu": 1,
+      "mainMenuId": 1
+    },
+    {
+      "id": 5,
+      "name": "SALADS",
+      "issubmenu": 0,
+      "mainMenuId": 1
+    },
+    {
+      "id": 6,
+      "name": "SOUPS",
+      "issubmenu": 0,
+      "mainMenuId": 1
+    },
+    {
+      "id": 7,
+      "name": "SANDWITCH & BURGERS",
+      "issubmenu": 1,
+      "mainMenuId": 2
+    },
+    {
+      "id": 8,
+      "name": "SALADS",
+      "issubmenu": 0,
+      "mainMenuId": 2
+    },
+    {
+      "id": 9,
+      "name": "SOUPS",
+      "issubmenu": 0,
+      "mainMenuId": 2
+    }
+  ]
+}
